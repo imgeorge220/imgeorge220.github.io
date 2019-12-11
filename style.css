@@ -1,0 +1,89 @@
+body{
+    background-color: lightsteelblue;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: -1px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+    background-color: rgb(108, 108, 108);
+}
+.nav-link {
+    display: inline;
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: lightsteelblue;
+    border: 1px solid black;;
+}
+.intro-container, .about-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.intro-container{
+    width: 60%;
+    height: 400px;
+}
+.about-container{
+    width: 400px;
+    height: 600px;
+}
+@media (min-width: 1320px){
+    .intro-container{
+        width: 792px;
+    }
+}
+.intro-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: rgb(108, 108, 108);
+}
+.intro-text #me {
+    color: black;
+}
+a.intro-text{
+    color: black;
+}
+.headshot{
+    position:relative;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about-text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding-top: 5px;
+}
+.foot-container{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#github{
+    padding-left: 8px;
+    border-left: 1px solid black;
+}
+
